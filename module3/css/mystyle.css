@@ -5,7 +5,7 @@ body {
 
 #main_content {
 	margin: 4% 1% 1% ;	
-	height: 150vh;
+	height: 120vh;
 	background-color: #D8EFF0;
 	text-align: justify;
 }
@@ -14,16 +14,17 @@ h1 {
 	color: #404242;
 }
 
-.container-fluid {
-	padding: 0px;
-}
-
 li {
 	font-size: 110%;
-	border: 1px solid #758A8F;
-	margin: 0 auto;
+	border-top: 1px solid #758A8F;
+	/*margin: 0 20px 0 2px;*/
 	font-weight: bold;
 }
+.navbar-default { 
+	background-color:#B8D8E0;
+	margin: 0 5px 0 5px;
+    border: 1px solid #758A8F;
+ }
 #collapsable-nav {
 	border-top-width: 0px;
 }
@@ -47,10 +48,6 @@ li {
 .navbar-nav {
 	margin-top: 0px;
 	margin-bottom: 0px;
-}
-#beef {
-	border-top: 0px;
-	border-bottom: 0px;
 }
 
 #nav-list {background-color: #D0EFF7;}
